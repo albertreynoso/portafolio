@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matias Aquino</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="container-nav">
+            <div class="item-nav-icon">
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="19.2" height="19.2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-[1.2rem] w-[1.2rem]"><path d="M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1"></path><path d="M16 21h1a2 2 0 0 0 2-2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1"></path></svg></a>
+            </div>
+            <div class="item-nav">
+                <a href="#inicio">Inicio</a>
+            </div>
+            <div class="item-nav">
+                <a href="#habilidades">Habilidades</a>
+            </div>
+            <div class="item-nav">
+                <a href="#experiencia">Experiencia</a>
+            </div>
+            <div class="item-nav">
+                <a href="#proyectos">Proyectos</a>
+            </div>
+            <div class="item-nav">
+                <a href="#contacto">Contacto</a>
+            </div>
+            <div class="item-nav">
+                <button onclick="cambiarColores()" id="miBoton">
+                    <span class="rotated-svg visible"><svg xmlns="http://www.w3.org/2000/svg" width="19.2" height="19.2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path></svg></span>
+                    <span class="normal-svg hidden"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg></span>
+                </button>                
+            </div>
+        </nav>
+    </header>
+    <body>
+        <section class="first-screen" id="inicio">
+            <div class="container-first-screen">
+                <div class="container-grid-first-screen">
+                    <div class="container-container-description-first-screen">
+                        <div class="second-container-description-first-screen">
+                            <div class="container-text-first-screen">
+                                <h1>Matias Aquino</h1>
+                                <h2>FullStack Developer</h2>
+                                <p class="p-principal-screen-description">Estudiante de Ing. de Sistemas e Informatica con más de 3 años de experiencia en desarrollo web, aplicando metodologias ágiles
+                                    y buenas prácticas para garantizar resultados eficientes y de calidad.
+                                </p>
+                            </div>
+                            <div class="container-icons-buttons-fist-screen">
+                                <div class="item-icons-buttons"><a target="_blank" href="https://www.linkedin.com/in/matias-aquino-castro-896016268"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="group-hover:scale-105 transition" height="21px" width="21px" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg></a></div>
+                                <div class="item-icons-buttons2"><a  target="_blank" href="https://github.com/Runniersoaoi"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" class="group-hover:scale-105 transition" height="21px" width="21px" xmlns="http://www.w3.org/2000/svg"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg></a></div>
+                                <div><button class="btn-contactame"><a href="#contacto">Contáctame <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 256 256" class="w-4 h-4 ml-2 group-hover:translate-x-[1px] group-hover:translate-y-[-1px] transition" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M88,200V134.87l44.37,38.91-30.61,31.76A8,8,0,0,1,88,200ZM230.63,32.07,28,111.38A6.23,6.23,0,0,0,29,123.3l59,11.57L232,33.22A1,1,0,0,0,230.63,32.07Z" opacity="0.2"></path><path d="M236.88,26.19a9,9,0,0,0-9.16-1.57L25.06,103.93a14.22,14.22,0,0,0,2.43,27.21L80,141.45V200a15.92,15.92,0,0,0,10,14.83,15.91,15.91,0,0,0,17.51-3.73l25.32-26.26L173,220a15.88,15.88,0,0,0,10.51,4,16.3,16.3,0,0,0,5-.79,15.85,15.85,0,0,0,10.67-11.63L239.77,35A9,9,0,0,0,236.88,26.19Zm-61.14,36L86.15,126.35l-49.61-9.73ZM96,200V152.52l24.79,21.74Zm87.53,8L100.85,135.5l119-85.29Z"></path></svg></a></button></div>
+                                <div><button class="btn-descargar"><a href="CV.pdf" download="CV-Aquino">Descargar CV <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-3 h-3 ml-2 group-hover:translate-y-[2px] transition"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" x2="12" y1="15" y2="3"></line></svg></a></button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-image-first-screen">
+                        <div class="second-container-image-first-screen">
+                            <img src="/imagen-matias-portafolio.jpeg" alt="imagen-matias-portafolio">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="habilitis-screen" id="habilidades">
+            <div class="container-habilitis-screen">
+                <div class="container-text-habilitis-screen">
+                    <h4 class="text-title-habilities">Mis Habilidades</h4>
+                    <div class="text-p-habilities">Estas son las tecnologías que he aprendido</div>
+                </div>
+                <div class="container-skills-habilitis-screen">
+                    <div class="skill-habiliti-screen">HTML</div>
+                    <div class="skill-habiliti-screen">CSS</div>
+                    <div class="skill-habiliti-screen">JavaScript</div>
+                    <div class="skill-habiliti-screen">TypeScript</div>
+                    <div class="skill-habiliti-screen">Git</div>
+                    <div class="skill-habiliti-screen">TailwindCSS</div>
+                    <div class="skill-habiliti-screen">React</div>
+                    <div class="skill-habiliti-screen">Node.js</div>
+                    <div class="skill-habiliti-screen">Laravel</div>
+                    <div class="skill-habiliti-screen">Next.js</div>
+                    <div class="skill-habiliti-screen">PHP</div>
+                    <div class="skill-habiliti-screen">MySQL</div>
+                    <div class="skill-habiliti-screen">MongoDB</div>
+                    <div class="skill-habiliti-screen">GraphQL</div>
+                </div>
+            </div>
+        </section>
+        <section class="experiencie-screen" id="experiencia">
+            <div class="container-experiencie-screen">
+                <div class="container-text-experiencie-screen">
+                    <h4 class="text-title-experiencie">Mi Experiencia</h4>
+                    <div class="text-p-experiencie">Aquí podrás visualizar toda mi experiencia laboral a lo largo de estos 3 años</div>
+                </div>
+                <div class="container-experiencie-examples-screen">
+                    <div class="container-text-of-time-experiencie">
+                        <div class="container-text-card-right">
+                            <p class="title-text-card">Autónomo</p>
+                            <p class="subtitle-text-card">Noviembre 2021 - Diciembre 2022</p>
+                            <p class="content-text-card">Desarrollé varias aplicacione logrando mejorar mis habilidades. Mi enfoque se ha centrado en lograr la escalabilidad y mejorar la calidad del código, asegurando soluciones robustas y eficientes.</p>
+                        </div>    
+                    </div>
+                    <div class="container-line-of-time-experiencie">
+                        <div class="line-of-time-experiencie">
+
+                        </div>
+                    </div>
+                    <div class="container-icon-3-item">
+                        <div class="circle-of-time-experiencie">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="text-secondary  text-3xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><title></title><path d="M14.096 3.076l1.634 2.292L24 3.076M5.503 20.924l4.474-4.374-2.692-2.89m6.133-10.584L11.027 5.23l4.022.15M4.124 3.077l.857 1.76 4.734.294m-3.058 7.072l3.497-6.522L0 5.13m7.064 7.485l3.303 3.548 3.643-3.57 1.13-6.652-4.439-.228Z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="container-icon-4-item">
+                        <div class="circle-of-time-experiencie">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="text-secondary text-3xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><title></title><path d="M18.561 13.158c-1.102 0-2.135-.467-3.074-1.227l.228-1.076.008-.042c.207-1.143.849-3.06 2.839-3.06 1.492 0 2.703 1.212 2.703 2.703-.001 1.489-1.212 2.702-2.704 2.702zm0-8.14c-2.539 0-4.51 1.649-5.31 4.366-1.22-1.834-2.148-4.036-2.687-5.892H7.828v7.112c-.002 1.406-1.141 2.546-2.547 2.548-1.405-.002-2.543-1.143-2.545-2.548V3.492H0v7.112c0 2.914 2.37 5.303 5.281 5.303 2.913 0 5.283-2.389 5.283-5.303v-1.19c.529 1.107 1.182 2.229 1.974 3.221l-1.673 7.873h2.797l1.213-5.71c1.063.679 2.285 1.109 3.686 1.109 3 0 5.439-2.452 5.439-5.45 0-3-2.439-5.439-5.439-5.439z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="container-icon-5-item">
+                        <div class="circle-of-time-experiencie">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-secondary text-3xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M14 6V4h-4v2h4zM4 8v11h16V8H4zm16-2c1.11 0 2 .89 2 2v11c0 1.11-.89 2-2 2H4c-1.11 0-2-.89-2-2l.01-11c0-1.11.88-2 1.99-2h4V4c0-1.11.89-2 2-2h4c1.11 0 2 .89 2 2v2h4z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="container-icon-6-item">
+                        <div class="container-text-card-left">
+                            <p class="title-text-card">Autónomo</p>
+                            <p class="subtitle-text-card">Noviembre 2021 - Diciembre 2022</p>
+                            <p class="content-text-card">Desarrollé varias aplicacione logrando mejorar mis habilidades. Mi enfoque se ha centrado en lograr la escalabilidad y mejorar la calidad del código, asegurando soluciones robustas y eficientes.</p>
+                        </div> 
+                    </div>
+                    <div class="container-icon-7-item">
+                        <div class="container-text-card-right2">
+                            <p class="title-text-card">Autónomo</p>
+                            <p class="subtitle-text-card">Noviembre 2021 - Diciembre 2022</p>
+                            <p class="content-text-card">Desarrollé varias aplicacione logrando mejorar mis habilidades. Mi enfoque se ha centrado en lograr la escalabilidad y mejorar la calidad del código, asegurando soluciones robustas y eficientes.</p>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projects-screen" id="proyectos">
+            <div class="container-projects-screen">
+                <div class="container-text-projects-screen">
+                    <div class="text-title-projects">Mis Proyectos</div>
+                    <div class="text-p-projects">Descubre algunos de los proyectos que he llevado acabo</div>
+                </div>
+                <div class="container-examples-projects-screen">
+                    <div class="container-example-projects ">
+                        <div class="example-projects animacion">
+                            <div class="container-imagen-projects">
+                                <img src="https://blog.hubspot.es/hubfs/media/mejoressoftwaredemarketinggreenrope.jpeg" alt="Imagen de Software de Ventas">
+                            </div>
+                            <div class="container-title-card-projects">Proyecto Gimnasio Alpha</div>
+                            <div class="container-descripcion-card-projects">Software operativo y de ventas</div>
+                            <div class="container-technology-card-projects">
+                                <div class="technology-card">
+                                    Java, SQL Server
+                                </div>
+                                <div class="svg-card">
+                                    <a target="_blank" href="https://github.com/Runniersoaoi/dise-oSoftware.git"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" class="group-hover:scale-105 transition" height="19.2px" width="19.2px" xmlns="http://www.w3.org/2000/svg"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-example-projects">
+                        <div class="example-projects animacion">
+                            <div class="container-imagen-projects">
+                                <img src="https://venngage-wordpress.s3.amazonaws.com/uploads/2019/03/sales-plan-image-1-1.png" alt="Imagen de Software web">
+                            </div>
+                            <div class="container-title-card-projects">Proyecto conexión web</div>
+                            <div class="container-descripcion-card-projects">Software de CRUD web</div>
+                            <div class="container-technology-card-projects">
+                                <div class="technology-card">
+                                    JS, HTML, CSS, MySQL
+                                </div>
+                                <div class="svg-card">
+                                    <a target="_blank" href="https://github.com/Runniersoaoi/MAquino2.git"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" class="group-hover:scale-105 transition" height="19.2px" width="19.2px" xmlns="http://www.w3.org/2000/svg"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-screen" id="contacto">
+            <div class="container-contact-screen">
+                <div class="container-text-contact-screen">
+                    <div class="text-title-contact">Contáctame</div>
+                    <div class="text-p-contact">Puedes escribirme por mis redes sociales o registrando tu iformación en este formulario</div>
+                </div>
+                <div class="container-examples-contact-screen">
+                    <div class="text-correo-form">Correo Electrónico</div>
+                    <input type="text" placeholder="    Ingresa tu correo electrónico...">
+                    <div class="text-mensaje-form">Mensaje</div>
+                    <input type="text" placeholder="    Ingresa tu mensaje..." class="input-text-message">
+                    <button class="btn-enviar">Enviar <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="ml-2 w-4 h-4 group-hover:translate-x-[1px] group-hover:translate-y-[-1px] transition" height="16px" width="16px" xmlns="http://www.w3.org/2000/svg"><path d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"></path></svg></button>
+                </div>
+            </div>
+        </section>
+    </body>
+    <footer>
+        <div class="container-footer-screen">
+            <div class="container-text-footer-screen">Hecho por Matias Aquino inspirado por Juan Morales. Sígueme en <a href="">LinkedIn </a> <a href="">GitHub</a> </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
